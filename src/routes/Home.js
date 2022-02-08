@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieList from "../components/MovieList";
 import NavBar from "../components/NavBar";
+import "./Home.css";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -23,7 +24,13 @@ function Home() {
   return (
     <>
       <NavBar />
-      <div>{loading ? <h1>Loading...</h1> : <MovieList movies={movies} />}</div>
+      <div className="movielists">
+        {loading ? (
+          <h1 className="loading">Loading...</h1>
+        ) : (
+          <MovieList movies={movies} />
+        )}
+      </div>
     </>
   );
 }

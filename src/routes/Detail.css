@@ -1,0 +1,40 @@
+.loading {
+  margin: 20% 50%;
+}
+
+.moviedetail {
+  display: flex;
+  margin: 35px 0 0 45px;
+  height: 800px;
+  background-color: #0e0e0e;
+}
+
+.informations {
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+}
+
+.informations h1 {
+  background-color: #0e0e0e;
+}
+
+.informations ul {
+  padding: 0;
+  background-color: #0e0e0e;
+}
+
+.informations h2 {
+  background-color: #0e0e0e;
+}
+
+.informations h3 {
+  background-color: #0e0e0e;
+}
+
+.informations p {
+  width: 450px;
+  background-color: #0e0e0e;
+}

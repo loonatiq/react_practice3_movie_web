@@ -1,0 +1,10 @@
+.movielists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 0 0 45px;
+}
+
+.loading {
+  margin: 20% 50%;
+}
