@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_practice3_movie_web/static/css/main.e617941a.css",
+    "main.js": "/react_practice3_movie_web/static/js/main.aeb9a074.js",
+    "index.html": "/react_practice3_movie_web/index.html",
+    "main.e617941a.css.map": "/react_practice3_movie_web/static/css/main.e617941a.css.map",
+    "main.aeb9a074.js.map": "/react_practice3_movie_web/static/js/main.aeb9a074.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e617941a.css",
+    "static/js/main.aeb9a074.js"
+  ]
+}
