@@ -1,16 +1,30 @@
 .loading {
-  margin: 20% 50%;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .moviedetail {
   display: flex;
   margin: 35px 0 0 45px;
   height: 800px;
-  background-color: #0e0e0e;
 }
 
 .informations {
-  margin: 35px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

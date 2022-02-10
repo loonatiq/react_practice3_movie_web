@@ -2,13 +2,14 @@
   display: flex;
   background-color: #161616;
   position: sticky;
+  padding: 10px;
   top: 0;
   opacity: 90%;
 }
 .home_title {
   text-decoration: none;
   background-color: #161616;
-  margin: 20px 0 20px 35px;
+  padding: 10px;
   font-size: 40px;
   font-weight: 600;
 }

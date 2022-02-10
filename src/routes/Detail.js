@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Suggestion from "../components/Suggestion";
 import "./Detail.css";
@@ -9,7 +9,7 @@ function Detail() {
   const { id } = useParams();
   const [details, setDetails] = useState();
   const [suggestions, setSuggestions] = useState([]);
-  const [currentId, setCurrentId] = useState(id);
+  const [currentId, setCurrentId] = useState();
 
   const getMovie = async () => {
     const detail = await (
@@ -20,17 +20,18 @@ function Detail() {
     ).json();
     setDetails(detail.data.movie);
     setSuggestions(suggestion.data.movies);
+    setCurrentId(id);
     setLoading(false);
-    console.log(detail);
-    console.log(suggestion);
+    // console.log(detail);
+    // console.log(suggestion);
   };
 
   useEffect(() => {
     getMovie();
   }, [id !== currentId]);
 
-  console.log(id);
-  console.log(currentId);
+  // console.log(id);
+  // console.log(currentId);
   return (
     <>
       <NavBar />
