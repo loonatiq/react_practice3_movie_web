@@ -1,0 +1,15 @@
+.Rating-star {
+  font-size: 35px;
+  color: #d8d8d8;
+}
+
+.Rating-star.selected {
+  color: #e6ce48;
+}
+
+span {
+  display: flex;
+  align-items: flex-end;
+  color: #272727;
+  font-size: 25px;
+}

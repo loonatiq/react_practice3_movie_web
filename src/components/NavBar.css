@@ -1,14 +1,17 @@
 .Navbar {
   display: flex;
-  background-color: #161616;
+  justify-content: center;
+  background-color: #16161681;
   position: sticky;
   padding: 10px;
   top: 0;
   opacity: 90%;
 }
+
 .home_title {
   text-decoration: none;
-  background-color: #161616;
+  background-color: #16161600;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 10px;
   font-size: 40px;
   font-weight: 600;

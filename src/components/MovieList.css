@@ -1,19 +1,45 @@
+:root {
+  --background-color: #e6e6e6;
+  --color: #020202;
+  --margin: 12px;
+}
 .movielist {
-  display: flex;
-  background-color: #5f5f5f;
-  width: 230px;
+  background-color: var(--background-color);
+  width: 700px;
   margin: 35px;
   padding: 5px;
+  box-shadow: 10px 5px 5px #5a5a5a;
+}
+
+.movielist:hover {
+  transform: scale3d(1.01, 1.01, 1);
+  transition: 0.2s;
 }
 
 .movielist div {
-  background-color: #5f5f5f;
+  display: flex;
+  background-color: var(--background-color);
+  color: var(--color);
+  margin: var(--margin);
 }
 
-.movielist h1 {
-  background-color: #5f5f5f;
+.movielist_info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
 }
 
-.movielist h1 a {
-  background-color: #5f5f5f;
+.movielist_info h1 {
+  background-color: var(--background-color);
+  color: var(--color);
+  margin: var(--margin);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.movielist_info p {
+  background-color: var(--background-color);
+  color: var(--color);
+  margin: var(--margin);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
 }
