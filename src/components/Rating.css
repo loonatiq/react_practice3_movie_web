@@ -6,10 +6,3 @@
 .Rating-star.selected {
   color: #e6ce48;
 }
-
-span {
-  display: flex;
-  align-items: flex-end;
-  color: #272727;
-  font-size: 25px;
-}

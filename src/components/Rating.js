@@ -13,7 +13,6 @@ function Rating({ rating }) {
       {RATINGS.map((value) => (
         <Star key={value} selected={value <= (rating + 1) / 2} />
       ))}
-      <span>({rating})</span>
     </>
   );
 }

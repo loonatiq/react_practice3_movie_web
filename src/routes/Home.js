@@ -6,6 +6,8 @@ import "./Home.css";
 function Home() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
+  const [sort, setSort] = useState("download_count");
+  const [toggle, setToggle] = useState(false);
 
   const getMovies = async () => {
     const response = await fetch(
@@ -21,16 +23,29 @@ function Home() {
   }, []);
   console.log(movies);
 
+  const toggleSort = () => {
+    setToggle((toggle) => !toggle);
+  };
+
   return (
     <>
       <NavBar />
-      <div className="movielists">
+      <>
         {loading ? (
           <h1 className="loading">Loading...</h1>
         ) : (
-          <MovieList movies={movies} />
+          <>
+            <ul className="sort">
+              <li>Sort by {sort}1 ▼</li>
+              <li>Sort by {sort} 2▼</li>
+              <li>Sort by {sort} 3▼</li>
+            </ul>
+            <div className="movielists">
+              <MovieList movies={movies} />
+            </div>
+          </>
         )}
-      </div>
+      </>
     </>
   );
 }

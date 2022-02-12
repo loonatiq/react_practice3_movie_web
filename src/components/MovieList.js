@@ -13,7 +13,6 @@ function MovieList({ movies }) {
               <div className="movielist_info">
                 <h1>{value.title_long}</h1>
                 <p>{value.summary.slice(0, 150)}...</p>
-                <div>{value.rating}</div>
                 <div>
                   <Rating rating={value.rating} />
                 </div>
