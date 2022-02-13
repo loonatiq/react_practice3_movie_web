@@ -26,21 +26,12 @@
 
 .sort {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  margin: 30px 10% 0 0;
 }
-
-.sort li {
-  list-style: none;
-  margin: 0 10% 0 0;
-  color: #131313;
+.sort select {
+  color: #141414;
+  border: none;
   font-weight: 600;
-  padding: 10px;
   cursor: pointer;
-}
-
-.sort li:hover {
-  transform: scale3d(1.01, 1.01, 1);
-  transition: 0.2s;
 }
