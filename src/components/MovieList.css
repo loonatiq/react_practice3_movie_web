@@ -1,10 +1,10 @@
 :root {
-  --background-color: #f5f5f5;
-  --color: #020202;
+  --background-color-movielist: #141414;
+  --color-movielist: #e4e4e4;
   --margin: 12px;
 }
 .movielist {
-  background-color: var(--background-color);
+  background-color: var(--background-color-movielist);
   width: 700px;
   margin: 35px;
   padding: 5px;
@@ -14,8 +14,8 @@
 
 .movielist div {
   display: flex;
-  background-color: var(--background-color);
-  color: var(--color);
+  background-color: var(--background-color-movielist);
+  color: var(--color-movielist);
   margin: var(--margin);
 }
 
@@ -31,15 +31,15 @@
 }
 
 .movielist_info h1 {
-  background-color: var(--background-color);
-  color: var(--color);
+  background-color: var(--background-color-movielist);
+  color: var(--color-movielist);
   margin: 0 0 0 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .movielist_info p {
-  background-color: var(--background-color);
-  color: var(--color);
+  background-color: var(--background-color-movielist);
+  color: var(--color-movielist);
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   padding: 15px;
@@ -54,6 +54,6 @@
 }
 
 .movielist:hover {
-  transform: scale3d(1.01, 1.01, 1);
+  transform: scale3d(1.1, 1.1, 1);
   transition: 0.2s;
 }

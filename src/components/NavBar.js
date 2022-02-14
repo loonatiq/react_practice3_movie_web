@@ -8,6 +8,11 @@ function NavBar() {
         <Link to={`/`} className="home_title">
           <span className="title_red">MOVIE</span>LEX
         </Link>
+        {/* <div className="navbar_menu">
+          <span>Search</span>
+          <span>Search</span>
+          <span>Search</span>
+        </div> */}
       </div>
     </>
   );

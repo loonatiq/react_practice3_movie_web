@@ -1,6 +1,6 @@
 .Navbar {
   display: flex;
-  background-color: #020202;
+  background-color: #000000;
   position: sticky;
   z-index: 1;
   padding: 20px 0;
@@ -20,3 +20,13 @@
 .title_red {
   color: #c50000;
 }
+
+/* .navbar_menu {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.navbar_menu span {
+  margin-left: 50%;
+} */

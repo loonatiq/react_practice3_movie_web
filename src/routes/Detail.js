@@ -30,9 +30,9 @@ function Detail() {
     getMovie();
     window.scrollTo(0, 0);
     setLoading(true);
+    // console.log(details);
   }, [id !== currentId]);
 
-  // console.log(id);
   // console.log(currentId);
   return (
     <>
