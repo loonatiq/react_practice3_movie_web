@@ -57,5 +57,6 @@
 .informations p {
   font-size: 25px;
   color: var(--color);
+  overflow: auto;
   font-family: "Roboto Condensed", sans-serif;
 }
