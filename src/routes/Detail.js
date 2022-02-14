@@ -28,6 +28,8 @@ function Detail() {
 
   useEffect(() => {
     getMovie();
+    window.scrollTo(0, 0);
+    setLoading(true);
   }, [id !== currentId]);
 
   // console.log(id);

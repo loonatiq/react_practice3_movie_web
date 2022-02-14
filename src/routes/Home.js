@@ -20,6 +20,7 @@ function Home() {
   useEffect(() => {
     console.log("실행");
     getMovies();
+    window.scrollTo(0, 0);
   }, [selected]);
   console.log(movies);
 
@@ -37,7 +38,7 @@ function Home() {
         {loading ? (
           <h1 className="loading">Loading...</h1>
         ) : (
-          <>
+          <div className="mainpage">
             <div className="top20">
               <h1>TOP 20</h1>
             </div>
@@ -51,7 +52,7 @@ function Home() {
             <div className="movielists">
               <MovieList movies={movies} />
             </div>
-          </>
+          </div>
         )}
       </>
     </>

@@ -30,38 +30,32 @@
 
 .informations {
   display: flex;
-  padding: 35px;
+  margin: 5%;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: var(--background-color); */
 }
 
 .informations h1 {
-  /* background-color: var(--background-color); */
   color: var(--color);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .informations ul {
   padding: 0;
-  /* background-color: var(--background-color); */
   color: var(--color);
+  font-weight: 600;
 }
 
 .informations h2 {
-  /* background-color: var(--background-color); */
   color: var(--color);
 }
 
 .informations h3 {
-  /* background-color: var(--background-color); */
   color: var(--color);
 }
 
 .informations p {
-  width: 450px;
   font-size: 25px;
-  /* background-color: var(--background-color); */
   color: var(--color);
   font-family: "Roboto Condensed", sans-serif;
 }
