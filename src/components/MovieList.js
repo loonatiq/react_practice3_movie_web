@@ -12,10 +12,10 @@ function MovieList({ movies }) {
               <img src={value.medium_cover_image} alt={value.title}></img>
               <div className="movielist_info">
                 <h1>{value.title_long}</h1>
-                <p>{value.summary.slice(0, 150)}...</p>
-                <div>
+                <span className="star">
                   <Rating rating={value.rating} />
-                </div>
+                </span>
+                <p>{value.summary.slice(0, 180)}...</p>
               </div>
             </div>
           </Link>

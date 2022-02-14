@@ -43,7 +43,7 @@ function Home() {
               <h1>TOP 20</h1>
             </div>
             <div className="sort">
-              <select onChange={handleSelect}>
+              <select value={selected} onChange={handleSelect}>
                 <option value="download_count">Sort by download</option>
                 <option value="rating">Sort by rating</option>
                 <option value="like_count">Sort by like_count</option>
