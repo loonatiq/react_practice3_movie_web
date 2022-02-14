@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react_practice3_movie_web_function_type/static/css/main.3276e287.css",
-    "main.js": "/react_practice3_movie_web_function_type/static/js/main.bc4ed2b0.js",
+    "main.css": "/react_practice3_movie_web_function_type/static/css/main.1a33ea09.css",
+    "main.js": "/react_practice3_movie_web_function_type/static/js/main.9df04de4.js",
+    "static/media/mainpage_background.jpg": "/react_practice3_movie_web_function_type/static/media/mainpage_background.3a547bbb699e02ed8760.jpg",
     "index.html": "/react_practice3_movie_web_function_type/index.html",
-    "main.3276e287.css.map": "/react_practice3_movie_web_function_type/static/css/main.3276e287.css.map",
-    "main.bc4ed2b0.js.map": "/react_practice3_movie_web_function_type/static/js/main.bc4ed2b0.js.map"
+    "main.1a33ea09.css.map": "/react_practice3_movie_web_function_type/static/css/main.1a33ea09.css.map",
+    "main.9df04de4.js.map": "/react_practice3_movie_web_function_type/static/js/main.9df04de4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3276e287.css",
-    "static/js/main.bc4ed2b0.js"
+    "static/css/main.1a33ea09.css",
+    "static/js/main.9df04de4.js"
   ]
 }
