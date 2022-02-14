@@ -6,7 +6,7 @@ function NavBar() {
     <>
       <div className="Navbar">
         <Link to={`/`} className="home_title">
-          MOVIE_WEB
+          MOVIELEX
         </Link>
       </div>
     </>

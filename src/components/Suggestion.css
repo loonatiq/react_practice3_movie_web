@@ -1,30 +1,39 @@
+:root {
+  --background-color: #f5f5f5;
+  --color: #020202;
+}
+
 .suggest {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  background-color: var(--background-color);
+}
+.suggest h1 {
+  color: var(--color);
+  margin: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .suggestion {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 2% 2% 2%;
 }
 
 .suggestionlist {
-  background-color: #5f5f5f;
-  width: 230px;
-  height: 650px;
-  margin: 1px;
-  padding: 5px;
-}
-
-.suggestionlist div {
-  background-color: #5f5f5f;
+  display: flex;
+  flex-direction: column;
+  color: var(--color);
+  width: 350px;
 }
 
 .suggestionlist h1 {
-  background-color: #5f5f5f;
+  color: var(--color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .suggestionlist h1 a {
-  background-color: #5f5f5f;
+  background-color: var(--background-color);
+  color: var(--color);
 }

@@ -1,3 +1,8 @@
+:root {
+  --background-color: #f5f5f5;
+  --color: #020202;
+}
+
 .loading {
   width: 100%;
   height: 100vh;
@@ -19,36 +24,44 @@
 
 .moviedetail {
   display: flex;
-  margin: 35px 0 0 45px;
+  justify-content: center;
   height: 800px;
 }
 
 .informations {
-  padding: 35px;
   display: flex;
+  padding: 35px;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #0e0e0e;
+  /* background-color: var(--background-color); */
 }
 
 .informations h1 {
-  background-color: #0e0e0e;
+  /* background-color: var(--background-color); */
+  color: var(--color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .informations ul {
   padding: 0;
-  background-color: #0e0e0e;
+  /* background-color: var(--background-color); */
+  color: var(--color);
 }
 
 .informations h2 {
-  background-color: #0e0e0e;
+  /* background-color: var(--background-color); */
+  color: var(--color);
 }
 
 .informations h3 {
-  background-color: #0e0e0e;
+  /* background-color: var(--background-color); */
+  color: var(--color);
 }
 
 .informations p {
   width: 450px;
-  background-color: #0e0e0e;
+  font-size: 25px;
+  /* background-color: var(--background-color); */
+  color: var(--color);
+  font-family: "Roboto Condensed", sans-serif;
 }

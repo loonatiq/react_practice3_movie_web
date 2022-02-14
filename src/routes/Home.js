@@ -26,6 +26,7 @@ function Home() {
   const handleSelect = (e) => {
     setSelected(e.target.value);
     setMovies([]);
+    setLoading(true);
     console.log(e.target.value);
   };
 
@@ -37,6 +38,9 @@ function Home() {
           <h1 className="loading">Loading...</h1>
         ) : (
           <>
+            <div className="top20">
+              <h1>TOP 20</h1>
+            </div>
             <div className="sort">
               <select onChange={handleSelect}>
                 <option value="download_count">Sort by download</option>

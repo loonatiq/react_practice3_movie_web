@@ -38,21 +38,23 @@ function Detail() {
       {loading ? (
         <h1 className="loading">Loading...</h1>
       ) : (
-        <div className="moviedetail">
-          <img src={details.large_cover_image} alt={details.title_long} />
-          <div className="informations">
-            <h1>{details.title_long}</h1>
-            <div>
-              {details.genres.map((value) => (
-                <ul key={value}>{value}</ul>
-              ))}
+        <>
+          <div className="moviedetail">
+            <img src={details.large_cover_image} alt={details.title_long} />
+            <div className="informations">
+              <h1>{details.title_long}</h1>
+              <div>
+                {details.genres.map((value) => (
+                  <ul key={value}>{value}</ul>
+                ))}
+              </div>
+              <h2>Rating : {details.rating}</h2>
+              <h3>Runtime : {details.runtime} minutes</h3>
+              <p>{details.description_full}</p>
             </div>
-            <h2>Rating : {details.rating}</h2>
-            <h3>Runtime : {details.runtime} minutes</h3>
-            <p>{details.description_full}</p>
           </div>
           <Suggestion suggestion={suggestions} />
-        </div>
+        </>
       )}
     </>
   );
